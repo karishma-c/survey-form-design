@@ -1,0 +1,67 @@
+
+body{
+    background-image: url("https://patientengagementhit.com/images/site/features/_large/patient-satisfaction-feature.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#title{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:white;
+    font-size: 38px;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 5px;
+}
+#description{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:white;
+    font-style: italic;
+    text-align: center;
+    font-weight: 300;
+    font-size: 25px;
+    
+}
+#survey-form{
+    margin: 30px auto;
+    color:white;
+    width: 50%;
+    background-color: rgba(0, 0, 0);
+    padding: 5px;
+    font-size: larger;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    opacity: 0.6;
+}
+form
+{
+    width: 90%;
+    margin: 30px auto;
+    padding: 10px;
+}
+.names, .mail, .year, #dropdown{
+    width: 100%;
+    padding: 10px 22px;
+    margin:10px 0;
+    box-sizing: border-box;
+    font-size: medium;
+    border-radius: 5px;
+}
+.button{
+    padding: 15px;
+    text-align: center;
+    width: 100%;
+    background-color: rgb(13, 100, 13);
+    color: white;
+    border: 0px solid rgb(13, 100, 13);
+}
+.checkb,.radio{
+    width: 100%;
+    margin: 0 auto;
+    text-align: left;
+}
+textarea{
+    min-width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+}
